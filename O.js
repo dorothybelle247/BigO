@@ -61,3 +61,45 @@ function logAtMost5(n){
         console.log(i)
     }
 }
+
+// space complexity 
+function sum(arr){
+    let total = 0;
+    for (let i = 0; i < arr.length; i++){
+        total += arr[i]
+    }
+    return total
+}
+
+// double
+function double(arr){
+    let newArr = [];
+    for (let i = 0; i < arr.length; i++){
+        newArr.push(2 * arr[i])
+    }
+    return newArr;
+}
+
+// Lagarithms is the inverse of exponential
+
+// BigO objects
+{/*
+   insertion - O(1)
+   Removal - O(1) 
+   Searching - O(n)
+   Access - O(1)
+*/}
+
+let instructor = {
+    firstName: 'John',
+    lastName: 'Milo',
+    isInstructor: true,
+    favoriteNumber: [7,8,22,1280]
+}
+{/*
+    BigO Methods
+    Object.keys - O(N)
+    Object.values - O(N)
+    Object.entries - O(N)
+    hasOwnProperty - O(1)
+ */}
